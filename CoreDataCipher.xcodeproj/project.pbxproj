@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3EC9E16726449A1400B1E5B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E16626449A1400B1E5B5 /* AppDelegate.swift */; };
 		3EC9E16926449A1400B1E5B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E16826449A1400B1E5B5 /* SceneDelegate.swift */; };
-		3EC9E16B26449A1400B1E5B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E16A26449A1400B1E5B5 /* ViewController.swift */; };
 		3EC9E16E26449A1400B1E5B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9E16C26449A1400B1E5B5 /* Main.storyboard */; };
 		3EC9E17026449A1600B1E5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9E16F26449A1600B1E5B5 /* Assets.xcassets */; };
 		3EC9E17326449A1600B1E5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9E17126449A1600B1E5B5 /* LaunchScreen.storyboard */; };
+		3EC9E17E26449A2E00B1E5B5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E17B26449A2E00B1E5B5 /* CoreDataManager.swift */; };
+		3EC9E17F26449A2E00B1E5B5 /* EncryptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E17C26449A2E00B1E5B5 /* EncryptionManager.swift */; };
+		3EC9E18026449A2E00B1E5B5 /* CryptoValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E17D26449A2E00B1E5B5 /* CryptoValueTransformer.swift */; };
+		3EC9E18526449BA600B1E5B5 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC9E18426449BA600B1E5B5 /* CryptoSwift */; };
+		3EC9E18926449BD900B1E5B5 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC9E18826449BD900B1E5B5 /* KeychainAccess */; };
+		3EC9E18C26449E1B00B1E5B5 /* TasksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E18B26449E1B00B1E5B5 /* TasksRepository.swift */; };
+		3EC9E19026449EDB00B1E5B5 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E18E26449EDB00B1E5B5 /* DataModel.xcdatamodeld */; };
+		3EC9E19C2644A44500B1E5B5 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E19B2644A44500B1E5B5 /* TaskViewModel.swift */; };
+		3EC9E19F2644A70400B1E5B5 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E19E2644A70400B1E5B5 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EC9E16326449A1400B1E5B5 /* CoreDataCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC9E16626449A1400B1E5B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC9E16826449A1400B1E5B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3EC9E16A26449A1400B1E5B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EC9E16D26449A1400B1E5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EC9E16F26449A1600B1E5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC9E17226449A1600B1E5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC9E17426449A1600B1E5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC9E17B26449A2E00B1E5B5 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3EC9E17C26449A2E00B1E5B5 /* EncryptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionManager.swift; sourceTree = "<group>"; };
+		3EC9E17D26449A2E00B1E5B5 /* CryptoValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoValueTransformer.swift; sourceTree = "<group>"; };
+		3EC9E18B26449E1B00B1E5B5 /* TasksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRepository.swift; sourceTree = "<group>"; };
+		3EC9E18F26449EDB00B1E5B5 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		3EC9E19B2644A44500B1E5B5 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		3EC9E19E2644A70400B1E5B5 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC9E18926449BD900B1E5B5 /* KeychainAccess in Frameworks */,
+				3EC9E18526449BA600B1E5B5 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,7 @@
 		3EC9E15A26449A1400B1E5B5 = {
 			isa = PBXGroup;
 			children = (
+				3EC9E18226449A3D00B1E5B5 /* Source */,
 				3EC9E16526449A1400B1E5B5 /* CoreDataCipher */,
 				3EC9E16426449A1400B1E5B5 /* Products */,
 			);
@@ -58,13 +75,26 @@
 			children = (
 				3EC9E16626449A1400B1E5B5 /* AppDelegate.swift */,
 				3EC9E16826449A1400B1E5B5 /* SceneDelegate.swift */,
-				3EC9E16A26449A1400B1E5B5 /* ViewController.swift */,
+				3EC9E19B2644A44500B1E5B5 /* TaskViewModel.swift */,
+				3EC9E19E2644A70400B1E5B5 /* TaskViewController.swift */,
+				3EC9E18B26449E1B00B1E5B5 /* TasksRepository.swift */,
+				3EC9E18E26449EDB00B1E5B5 /* DataModel.xcdatamodeld */,
 				3EC9E16C26449A1400B1E5B5 /* Main.storyboard */,
 				3EC9E16F26449A1600B1E5B5 /* Assets.xcassets */,
 				3EC9E17126449A1600B1E5B5 /* LaunchScreen.storyboard */,
 				3EC9E17426449A1600B1E5B5 /* Info.plist */,
 			);
 			path = CoreDataCipher;
+			sourceTree = "<group>";
+		};
+		3EC9E18226449A3D00B1E5B5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3EC9E17B26449A2E00B1E5B5 /* CoreDataManager.swift */,
+				3EC9E17D26449A2E00B1E5B5 /* CryptoValueTransformer.swift */,
+				3EC9E17C26449A2E00B1E5B5 /* EncryptionManager.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +113,10 @@
 			dependencies = (
 			);
 			name = CoreDataCipher;
+			packageProductDependencies = (
+				3EC9E18426449BA600B1E5B5 /* CryptoSwift */,
+				3EC9E18826449BD900B1E5B5 /* KeychainAccess */,
+			);
 			productName = CoreDataCipher;
 			productReference = 3EC9E16326449A1400B1E5B5 /* CoreDataCipher.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +144,10 @@
 				Base,
 			);
 			mainGroup = 3EC9E15A26449A1400B1E5B5;
+			packageReferences = (
+				3EC9E18326449BA600B1E5B5 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				3EC9E18726449BD900B1E5B5 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 3EC9E16426449A1400B1E5B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC9E16B26449A1400B1E5B5 /* ViewController.swift in Sources */,
+				3EC9E19026449EDB00B1E5B5 /* DataModel.xcdatamodeld in Sources */,
 				3EC9E16726449A1400B1E5B5 /* AppDelegate.swift in Sources */,
+				3EC9E18026449A2E00B1E5B5 /* CryptoValueTransformer.swift in Sources */,
+				3EC9E17E26449A2E00B1E5B5 /* CoreDataManager.swift in Sources */,
+				3EC9E18C26449E1B00B1E5B5 /* TasksRepository.swift in Sources */,
+				3EC9E17F26449A2E00B1E5B5 /* EncryptionManager.swift in Sources */,
+				3EC9E19F2644A70400B1E5B5 /* TaskViewController.swift in Sources */,
+				3EC9E19C2644A44500B1E5B5 /* TaskViewModel.swift in Sources */,
 				3EC9E16926449A1400B1E5B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +385,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3EC9E18326449BA600B1E5B5 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		3EC9E18726449BD900B1E5B5 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3EC9E18426449BA600B1E5B5 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3EC9E18326449BA600B1E5B5 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		3EC9E18826449BD900B1E5B5 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3EC9E18726449BD900B1E5B5 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3EC9E18E26449EDB00B1E5B5 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EC9E18F26449EDB00B1E5B5 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 3EC9E18F26449EDB00B1E5B5 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3EC9E15B26449A1400B1E5B5 /* Project object */;
 }
